@@ -45,7 +45,7 @@
                                 <color key="backgroundColor" red="0.64684799039999996" green="0.015437261681547444" blue="0.023560637968591744" alpha="0.93958516020000005" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Yqm-JY-d60"/>
-                                    <constraint firstAttribute="width" constant="88" id="gT9-LO-hOi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="88" id="gT9-LO-hOi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="tintColor" red="1" green="0.95363494179999997" blue="0.27310914749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -54,7 +54,7 @@
                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="stertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="48w-v5-BBv"/>
+                                    <action selector="startPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="i0K-rA-P6O"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,6 +70,7 @@
                     <connections>
                         <outlet property="greenView" destination="t5H-ys-q73" id="aaP-57-bc3"/>
                         <outlet property="redView" destination="O6I-Vg-6CJ" id="ARH-7w-2Pa"/>
+                        <outlet property="startButton" destination="3iD-5h-TOC" id="Uba-VS-rTZ"/>
                         <outlet property="yellowView" destination="AVn-xZ-4Nr" id="wmd-32-aND"/>
                     </connections>
                 </viewController>
